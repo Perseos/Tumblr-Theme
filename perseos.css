@@ -75,8 +75,46 @@
 .post_text > h3 { font-size: 20px; }
 
 /* Photos */
-.post_photo img {
-	horizontal-align: middle;
+.image_container {
+	min-height: 140px;
+	position: relative;
+}
+
+.image_container img {
+	display: block;
+	margin: auto;
+}
+
+.image_container > .exif {
+	position: absolute;
+	top: 0;
+	left: 0;
+	
+	height: 100%;
+	width: 100%;		
+	
+	opacity: 0;
+	background-color: rgba(0, 0, 0, 0.7);
+	
+	transition: opacity 0.5s ease-out;
+	-webkit-transition: opacity 0.5s ease-out;
+}
+
+.image_container:hover > .exif { opacity: 1; }
+
+ul.exifList{
+
+	width: 120px;
+	
+	color: silver;
+	font-size: 12px;
+	list-style-type: none;
+	
+	display: block;
+	margin: 10px auto 10px auto;
+	
+	transition: opacity 0.5s ease-out;
+	-webkit-transition: opacity 0.5s ease-out;
 }
 
 /*

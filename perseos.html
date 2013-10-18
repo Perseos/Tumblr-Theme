@@ -5,7 +5,7 @@
         <link rel="shortcut icon" href="{Favicon}">
         <link rel="alternate" type="application/rss+xml" href="{RSS}">
         <link  href="perseos.css" rel="stylesheet" type="text/css">
-        <!--block:Description-->
+        <!-- block:Description-->
         <meta name="description" content="{MetaDescription}" />
         <!--/block:Description-->
     </head>
@@ -14,145 +14,148 @@
 	        <div id="about">
 	        	<h1>{Title}</h1>
 	        	<div  id="description">
-	        		<!--block:Description-->
+	        		<!-- block:Description-->
 	        		<p>{Description}</p>
-	        		<!--/block:Description-->
+	        		<!-- /block:Description-->
 	        	</div>
 	        </div>
 	        
 	        <ol id="posts">
-	            <!--block:Posts-->
-	            <!--block:Text-->
+	            <!-- block:Posts-->
+	            <!-- block:Text-->
 	            <li class="post_text">
-	                <!--block:Title-->
+	                <!-- block:Title-->
 	                <h3>{Title}</h3>
-	                <!--/block:Title-->
+	                <!-- /block:Title-->
 	                {Body}
 	            </li>
-	            <!--/block:Text-->
+	            <!-- /block:Text-->
 	            
-	            <!--block:Photo-->
+	            <!-- block:Photo -->
 	            <li class="post_photo">
-	                <div class="image_container>
+	                <div class="image_container">
+	                	<p style="height: 10px"></p>
 		                <a href="{PhotoURL-HighRes}">
 		                	<img src="{PhotoURL-500}" alt="{PhotoAlt}"/>
 		                </a>
-		               	<!--block:Exif---->
-					        <ul class="exif">
-					            <!--block:Camera-->
-					                <li>Camera: {Camera}</li>
-					            <!--/block:Camera-->
-					            <!--block:Aperture-->
-					                <li>Aperture: {Aperture}</li>
-					            <!--/block:Aperture-->
-					            <!--block:Exposure-->
-					                <li>Exposure: {Exposure}</li>
-					            <!--/block:Exposure-->
-					            <!--block:FocalLength-->
-					                <li>Focal Length: {FocalLength}</li>
-					            <!--/block:FocalLength-->
-					        </ul>
-					    <!--/block:Exif-->
+ 		               	<!-- block:Exif-->
+ 		               		<div class="exif">
+						        <ul class="exifList">
+						            <!-- block:Camera-->
+						                <li>Camera: <br />{Camera}</li>
+						            <!-- /block:Camera-->
+						            <!-- block:Aperture-->
+						                <li>Aperture: <br />{Aperture}</li>
+						            <!-- /block:Aperture-->
+						            <!-- block:Exposure-->
+						                <li>Exposure: <br />{Exposure}</li>
+						            <!-- /block:Exposure-->
+						            <!-- block:FocalLength-->
+						                <li>Focal Length: <br />{FocalLength}</li>
+						            <!-- /block:FocalLength-->
+						        </ul>
+ 					        </div>
+ 					    <!-- /block:Exif-->
 				    </div>
 	                
-	                <!--block:Caption-->
+	                <!-- block:Caption-->
 	                <div class="caption">{Caption}</div>
-	                <!--/block:Caption-->
+	                <!-- /block:Caption-->
 	            </li>
-	            <!--/block:Photo-->
+	            <!-- /block:Photo-->
 	            
-	            <!--block:Panorama-->
+	            <!-- block:Panorama-->
 	            <li class="post_panorama">
 	                {LinkOpenTag}
 	                <img src="{PhotoURL-Panorama}" alt="{PhotoAlt}"/>
 	                {LinkCloseTag}
 	                
-	                <!--block:Caption-->
+	                <!-- block:Caption-->
 	                <div class="caption">{Caption}</div>
-	                <!--/block:Caption-->
+	                <!-- /block:Caption-->
 	            </li>
-	            <!--/block:Panorama-->
+	            <!-- /block:Panorama-->
 	            
-	            <!--block:Photoset-->
+	            <!-- block:Photoset-->
 	            <li class="post_photoset">
 	                {Photoset-500}
 	                
-	                <!--block:Caption-->
+	                <!-- block:Caption-->
 	                <div class="caption">{Caption}</div>
-	                <!--/block:Caption-->
+	                <!-- /block:Caption-->
 	            </li>
-	            <!--/block:Photoset-->
+	            <!-- /block:Photoset-->
 	            
-	            <!--block:Quote-->
+	            <!-- block:Quote-->
 	            <li class="post_quote">
 	                "{Quote}"
 	                
-	                <!--block:Source-->
+	                <!-- block:Source-->
 	                <div class="source">{Source}</div>
-	                <!--/block:Source-->
+	                <!-- /block:Source-->
 	            </li>
-	            <!--/block:Quote-->
+	            <!-- /block:Quote-->
 	            
-	            <!--block:Link-->
+	            <!-- block:Link-->
 	            <li class="post_link">
 	                <a href="{URL}" class="link" {Target}>{Name}</a>
 	                
-	                <!--block:Description-->
+	                <!-- block:Description-->
 	                <div class="description">{Description}</div>
-	                <!--/block:Description-->
+	                <!-- /block:Description-->
 	            </li>
-	            <!--/block:Link-->
+	            <!-- /block:Link-->
 	            
-	            <!--block:Chat-->
+	            <!-- block:Chat-->
 	            <li class="post_chat">
-	                <!--block:Title-->
+	                <!-- block:Title-->
 	                <h3><a href="{Permalink}">{Title}</a></h3>
-	                <!--/block:Title-->
+	                <!-- /block:Title-->
 	                
 	                <ul class="chat">
-	                    <!--block:Lines-->
+	                    <!-- block:Lines-->
 	                    <li class="{Alt} user_{UserNumber}">
-	                        <!--block:Label-->
+	                        <!-- block:Label-->
 	                        <span class="label">{Label}</span>
-	                        <!--/block:Label-->
+	                        <!-- /block:Label-->
 	                        
 	                        {Line}
 	                    </li>
-	                    <!--/block:Lines-->
+	                    <!-- /block:Lines-->
 	                </ul>
 	            </li>
-	            <!--/block:Chat-->
+	            <!-- /block:Chat-->
 	            
-	            <!--block:Video-->
+	            <!-- block:Video-->
 	            <li class="post_video">
 	                {Video-500}
 	                
-	                <!--block:Caption-->
+	                <!-- block:Caption-->
 	                <div class="caption">{Caption}</div>
-	                <!--/block:Caption-->
+	                <!-- /block:Caption-->
 	            </li>
-	            <!--/block:Video-->
+	            <!-- /block:Video-->
 	           
-	            <!--block:Audio-->
+	            <!-- block:Audio-->
 	            <li class="post_audio">
 	                {AudioPlayerBlack}
 	                
-	                <!--block:Caption-->
+	                <!-- block:Caption-->
 	                <div class="caption">{Caption}</div>
-	                <!--/block:Caption-->
+	                <!-- /block:Caption-->
 	            </li>
-	            <!--/block:Audio-->
-	            <!--/block:Posts-->
+	            <!-- /block:Audio-->
+	            <!-- /block:Posts-->
 	        </ol>
 	        
 	        <p id="footer">
-	        <!--block:PreviousPage-->
+	        <!-- block:PreviousPage-->
 	        <a href="{PreviousPage}">&#171; Previous</a>
-	        <!--/block:PreviousPage-->
+	        <!-- /block:PreviousPage-->
 	        
 	        {block:NextPage}
 	        <a href="{NextPage}">Next &#187;</a>
-	        <!--/block:NextPage-->
+	        <!-- /block:NextPage-->
 	        
 	        <a href="/archive">Archive</a>
 	        </p>
