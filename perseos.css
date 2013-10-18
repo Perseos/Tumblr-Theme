@@ -10,7 +10,10 @@
 }
 
 /* Wrapper */
-#wrapper { width: 640px}
+#wrapper {
+	width: 640px;
+	margin: 10px auto 0 auto;
+}
 
 /*================================================================
 	About-section
@@ -19,7 +22,7 @@
 
 #about h1{
  font-size: 32px;
- margin: 10px auto 0 auto;
+ padding: 10px;
 }
 #about #description {
 	border-top: 1px solid black;
