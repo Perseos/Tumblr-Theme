@@ -1,0 +1,31 @@
+/*================================================================
+	General Fixes
+================================================================*/
+
+* {
+	font-family: Helvetica, Arial, Verdana;
+	margin: 0px;
+	padding: 0px;
+}
+
+/*================================================================
+	About-section
+================================================================*/
+
+
+#about h1{ font-size: 32px; }
+#about #description {
+	border: 1px solid black;
+	height: 0px;
+	transition: height 1s ease-in 1s;
+	-webkit-transition: height 1s ease-in 1s;
+}
+
+#about:hover #description{
+	height: 200px;
+	overflow: scroll;
+}
+
+#about p { display: none; }
+#about:hover p { display: block; }
+
