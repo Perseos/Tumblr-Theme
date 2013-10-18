@@ -75,7 +75,7 @@
 
 /* Photos */
 
-.post_photo .image_container {
+/*.post_photo .image_container {
     position: relative;
     margin: 10px auto 10px auto;
     height: {PhotoWidth-500}px;
@@ -101,6 +101,37 @@
 .post_photo .image_container .exif {
 	transition: opacity 0.2s ease-in;
 	opacity: 0;
+}
+
+
+.textpanel {
+    position: relative;
+}
+.textpanel img {
+    display: block;
+}
+.textpanel textarea {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    height: 200px;
+    width: 200px;
+    background-color: rgba(255,255,255,0.5);
+}*/
+
+.post_photo .image_container {
+    position: relative;
+}
+.post_photo .image_container img {
+    display: block;
+}
+.post_photo .image_container exif {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    height: 200px;
+    width: 200px;
+    background-color: rgba(255,255,255,0.5);
 }
 
 
