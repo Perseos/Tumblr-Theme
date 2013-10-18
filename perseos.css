@@ -78,6 +78,8 @@
 .post_photo .image_container {
     position: relative;
     margin: 10px auto 10px auto;
+    height: {PhotoWidth-500};
+    width: {PhotoWidth-500};
 }
 
 .post_photo .image_container img {
