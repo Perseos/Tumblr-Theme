@@ -13,7 +13,10 @@
 ================================================================*/
 
 
-#about h1{ font-size: 32px; }
+#about h1{
+ font-size: 32px;
+ font-weight: 200;
+}
 #about #description {
 	border: 1px solid black;
 	height: 0px;
