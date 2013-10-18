@@ -19,8 +19,8 @@
  margin: 10px;
 }
 #about #description {
-	border-top: none;
-	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+	border-bottom: none;
 	padding: 5px;
 	
 	height: 0px;
@@ -29,7 +29,7 @@
 }
 
 #about:hover #description{
-	border-top: 1px solid black;
+	border-bottom: 1px solid black;
 	height: 200px;
 	overflow: scroll;
 }
