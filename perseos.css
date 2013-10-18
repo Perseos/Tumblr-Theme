@@ -49,6 +49,7 @@
 	list-style-type: none;
 	border-top: 1px solid black;
 	border-bottom: 1px solid black;
+	margin-top: 20px;
 }
 
 .post_text { padding: 10px; }
