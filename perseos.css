@@ -4,9 +4,13 @@
 
 * {
 	font-family: Helvetica, Arial, Verdana;
+	font-weight: lighter;
 	margin: 0px;
 	padding: 0px;
 }
+
+/* Wrapper */
+#wrapper { width: 640px}
 
 /*================================================================
 	About-section
@@ -15,7 +19,6 @@
 
 #about h1{
  font-size: 32px;
- font-weight: lighter;
  margin: 10px;
 }
 #about #description {
@@ -37,3 +40,14 @@
 #about p { display: none; }
 #about:hover p { display: block; }
 
+
+/*================================================================
+	Post-section
+================================================================*/
+
+#posts li {
+	list-style-type: none;
+	border: 2px solid black;
+	border-radius: 4px;
+	margin-top: 20px;
+}
