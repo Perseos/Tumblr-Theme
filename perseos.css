@@ -19,7 +19,7 @@
 
 #about h1{
  font-size: 32px;
- margin: 10px auto;
+ margin: 10px auto 0 auto;
 }
 #about #description {
 	border-top: 1px solid black;
