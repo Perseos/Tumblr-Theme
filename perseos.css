@@ -12,14 +12,8 @@
 /* Wrapper */
 #wrapper {
 	background-color: #bbb;
-	opacity: 0.6;
 	width: 640px;
 	margin: 10px auto 0 auto;
-}
-
-#wrapper * {
-	opacity: default;
-	background-color:default;
 }
 
 /*================================================================
