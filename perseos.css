@@ -15,7 +15,8 @@
 
 #about h1{
  font-size: 32px;
- font-weight: 200;
+ font-weight: lighter;
+ margin: 10px;
 }
 #about #description {
 	border: 1px solid black;
