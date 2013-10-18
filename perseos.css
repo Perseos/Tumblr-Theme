@@ -62,6 +62,12 @@
 	border-left: 2px solid silver;
 }
 
+
+#posts .caption {
+	padding: 10px;
+}
+
+
 /* Text posts */ 
 .post_text { padding: 10px; }
 
@@ -96,9 +102,6 @@
 	opacity: 0;
 }
 
-.post_photo .caption {
-	padding: 10px;
-}
 
 /*
 .post_photoset
