@@ -63,24 +63,24 @@
 }
 
 /* Text posts */ 
-.post_text { padding: 20px; }
+.post_text { padding: 10px; }
 
 .post_text > h3 { font-size: 20px; }
 
 /* Photos */
 
-.image_container {
+.post_photo .image_container {
     position: relative;
 }
 
-.image_container img {
+.post_photo .image_container img {
     display: block;
 	margin-left: auto;
 	margin-right: auto;
 	padding: 10px;	
 }
 
-.image_container .exif {
+.post_photo .image_container:hover .exif {
     position: absolute;
     top: 0;
     left: 0;
@@ -91,7 +91,14 @@
     opacity: 0.7;
 }
 
+.post_photo .image_container .exif {
+	transition: opacity 0.2s ease-in;
+	opacity: 0;
+}
 
+.post_photo .caption {
+	padding: 10px;
+}
 
 /*
 .post_photoset
