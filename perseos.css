@@ -126,6 +126,8 @@
     display: block;
 }
 .post_photo .image_container exif {
+	color:red;
+	background-color: blue;
     position: absolute;
     top: 50px;
     left: 50px;
