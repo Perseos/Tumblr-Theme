@@ -102,9 +102,8 @@
 
 .image_container:hover > .exif { opacity: 1; }
 
-ul.exifList{
-
-	width: 120px;
+.exifList{
+	width: 180px;
 	
 	color: silver;
 	font-size: 12px;
@@ -117,6 +116,11 @@ ul.exifList{
 	-webkit-transition: opacity 0.5s ease-out;
 }
 
+.exifList li {
+	border-top: 1px dashed silver;
+	padding: 5px;
+}
+.exifList li:first-child { border-top: none;}
 /*
 .post_photoset
 .post_panorama
