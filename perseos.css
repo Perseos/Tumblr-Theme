@@ -5,14 +5,12 @@
 * {
 	font-family: Helvetica, Arial, Verdana;
 	font-weight: lighter;
-	color: white;
 	margin: 0px;
 	padding: 0px;
 }
 
 /* Wrapper */
 #wrapper {
-	background-color: #bbb;
 	width: 640px;
 	margin: 10px auto 0 auto;
 }
@@ -27,7 +25,7 @@
  padding: 10px;
 }
 #about #description {
-	border-top: 1px solid white;
+	border-top: 1px solid black;
 	border-bottom: none;
 	padding: 5px;
 	
@@ -37,7 +35,7 @@
 }
 
 #about:hover #description{
-	border-bottom: 1px solid white;
+	border-bottom: 1px solid black;
 	height: 200px;
 	overflow: scroll;
 }
@@ -52,8 +50,8 @@
 
 #posts > li {
 	list-style-type: none;
-	border-top: 1px solid white;
-	border-bottom: 1px solid white;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
 	margin-top: 20px;
 }
 
