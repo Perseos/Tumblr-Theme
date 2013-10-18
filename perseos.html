@@ -3,7 +3,7 @@
         <title>{Title}</title>
         <link rel="shortcut icon" href="{Favicon}">
         <link rel="alternate" type="application/rss+xml" href="{RSS}">
-        <link  href="file:///User/daniel/workspace/Tumblr%20Theme/perseos.css" rel="stylesheet" type="text/css">
+        <link  href="https://raw.github.com/Perseos/Tumblr-Theme/master/perseos.css" rel="stylesheet" type="text/css">
         {block:Description}
         <meta name="description" content="{MetaDescription}" />
         {/block:Description}
@@ -22,9 +22,9 @@
 	        <ol id="posts">
 	            {block:Posts}
 	            {block:Text}
-	            <li class="post text">
+	            <li class="post_text">
 	                {block:Title}
-	                <h3><a href="{Permalink}">{Title}</a></h3>
+	                <h3>{Title}</h3>
 	                {/block:Title}
 	                
 	                {Body}
@@ -32,7 +32,7 @@
 	            {/block:Text}
 	            
 	            {block:Photo}
-	            <li class="post photo">
+	            <li class="post_photo">
 	                <img src="{PhotoURL-500}" alt="{PhotoAlt}"/>
 	                
 	                {block:Caption}
@@ -42,7 +42,7 @@
 	            {/block:Photo}
 	            
 	            {block:Panorama}
-	            <li class="post panorama">
+	            <li class="post_panorama">
 	                {LinkOpenTag}
 	                <img src="{PhotoURL-Panorama}" alt="{PhotoAlt}"/>
 	                {LinkCloseTag}
@@ -54,7 +54,7 @@
 	            {/block:Panorama}
 	            
 	            {block:Photoset}
-	            <li class="post photoset">
+	            <li class="post_photoset">
 	                {Photoset-500}
 	                
 	                {block:Caption}
@@ -64,7 +64,7 @@
 	            {/block:Photoset}
 	            
 	            {block:Quote}
-	            <li class="post quote">
+	            <li class="post_quote">
 	                "{Quote}"
 	                
 	                {block:Source}
@@ -74,7 +74,7 @@
 	            {/block:Quote}
 	            
 	            {block:Link}
-	            <li class="post link">
+	            <li class="post_link">
 	                <a href="{URL}" class="link" {Target}>{Name}</a>
 	                
 	                {block:Description}
@@ -84,7 +84,7 @@
 	            {/block:Link}
 	            
 	            {block:Chat}
-	            <li class="post chat">
+	            <li class="post_chat">
 	                {block:Title}
 	                <h3><a href="{Permalink}">{Title}</a></h3>
 	                {/block:Title}
@@ -104,7 +104,7 @@
 	            {/block:Chat}
 	            
 	            {block:Video}
-	            <li class="post video">
+	            <li class="post_video">
 	                {Video-500}
 	                
 	                {block:Caption}
@@ -114,7 +114,7 @@
 	            {/block:Video}
 	            
 	            {block:Audio}
-	            <li class="post audio">
+	            <li class="post_audio">
 	                {AudioPlayerBlack}
 	                
 	                {block:Caption}
