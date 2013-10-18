@@ -47,9 +47,8 @@
 
 #posts > li {
 	list-style-type: none;
-	border: 2px solid black;
-	border-radius: 4px;
-	margin-top: 20px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
 }
 
 .post_text { padding: 10px; }
