@@ -45,7 +45,7 @@
 	Post-section
 ================================================================*/
 
-#posts li {
+#posts > li {
 	list-style-type: none;
 	border: 2px solid black;
 	border-radius: 4px;
