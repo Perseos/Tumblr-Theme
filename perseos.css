@@ -5,6 +5,9 @@
 * {
 	font-family: Helvetica, Arial, Verdana;
 	font-weight: lighter;
+	text-decoration: none;
+	color: black;
+	
 	margin: 0px;
 	padding: 0px;
 }
@@ -120,11 +123,40 @@
 	border-top: 1px dashed silver;
 	padding: 5px;
 }
-.exifList li:first-child { border-top: none;}
+.exifList li:first-child {
+	border-top: none;
+	padding: 10px 20px;
+}
+
+
+/*Link*/
+
+.post_link a {
+	display: block;
+	position: relative;
+	
+	padding: 10px 20px;
+	margin: 10px auto;
+	border: 2px solid rgba(50,100,0, 0.1);
+	
+	background-color: rgba(50,100,0, 0.1);
+	font-size: 12px;
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
+
+.postlink a img {
+	display: block;
+	position: absolute;
+	right: 20px;
+}
+
+.post_link a span{ font-size: 24px; }
+
+.post_link a:hover, .post_link a:focus
+{ background-color: rgba(50,100,0, 0.3);}
+
 /*
-.post_photoset
-.post_panorama
-.post_link
 .post_quote
 .post_chat
 .post_audio
