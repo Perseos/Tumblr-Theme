@@ -103,21 +103,7 @@
 	opacity: 0;
 }
 
-
-.textpanel {
-    position: relative;
-}
-.textpanel img {
-    display: block;
-}
-.textpanel textarea {
-    position: absolute;
-    top: 50px;
-    left: 50px;
-    height: 200px;
-    width: 200px;
-    background-color: rgba(255,255,255,0.5);
-}*/
+*/
 
 .post_photo .image_container {
     position: relative;
@@ -125,9 +111,10 @@
 .post_photo .image_container img {
     display: block;
 }
-.post_photo .image_container exif {
+.post_photo > .image_container #exif {
 	color:red;
 	background-color: blue;
+	
     position: absolute;
     top: 50px;
     left: 50px;
