@@ -17,8 +17,8 @@
 #about #description {
 	border: 1px solid black;
 	height: 0px;
-	transition: height 1s ease-in 1s;
-	-webkit-transition: height 1s ease-in 1s;
+	transition: height 0.5s ease-in 0.1s;
+	-webkit-transition: height 0.5s ease-in 0.1s;
 }
 
 #about:hover #description{
