@@ -11,7 +11,7 @@
 
 /* Wrapper */
 #wrapper {
-	width: 680px;
+	width: 640px;
 	margin: 10px auto 0 auto;
 }
 
@@ -24,6 +24,7 @@
  font-size: 32px;
  padding: 10px;
 }
+
 #about #description {
 	border-top: 1px solid black;
 	border-bottom: none;
@@ -74,7 +75,7 @@
 .post_text > h3 { font-size: 20px; }
 
 /* Photos */
-.post_text img {
+.post_photo img {
 	margin: 10px auto; 
 }
 
